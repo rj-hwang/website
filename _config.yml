@@ -1,1 +1,2 @@
-baseurl: /website
+baseurl: ""
+port: 4001
