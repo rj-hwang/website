@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<title>{{ page.title }}</title>
-	</head>
-	<body>
-		{{ content }}
-	</body>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>{{ page.title }}</title>
+</head>
+<style type="text/css">
+body {
+  background-color: #000;
+  color: #adadad
+}
+
+a {
+  color: #adadad;
+}
+
+footer {
+  text-align: center;
+  font-size: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer > a {
+  text-decoration: none;
+  color: #333;
+}
+</style>
+
+<body>
+  <header></header>
+  <article>{{ content }}</article>
+  <footer><a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备16015306号-1</a></footer>
+</body>
+
 </html>
