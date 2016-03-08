@@ -6,7 +6,10 @@ title: 阿基博客的写作环境
 {{page.title}}
 --------
 阿基的博客使用 [Jekyll](http://jekyllcn.com)、[Git](http://git-scm.com) 技术作为写作环境的核心基础，大部分博客文章使用 [Markdown](http://baike.baidu.com/view/2311114.htm) 语法编写，代码托管在 [Github](https://github.com/rongjihuang/website)。
+可以通过两种方式访问阿基的博客：
 
+- 域名：[rongjih.com](http://rongjih.com/)
+- Github Pages：[rongjihuang.github.io/website](http://rongjihuang.github.io/website/)
 
 ## Jekyll
 
