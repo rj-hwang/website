@@ -34,13 +34,17 @@ li {
   margin: 0.5em 0;
 }
 
+hr {
+  border-color: #555;
+}
+
 blockquote {
   padding: 0.25em 0.5em;
   margin: 0;
   background-color: #444;
   background-color: rgba(68, 68, 68, 0.3);
-  border-left: 2px solid #555;
-  border-left: 2px solid rgba(85, 85, 85, 0.3);
+  border-left: 4px solid #555;
+  border-left: 4px solid rgba(85, 85, 85, 0.3);
   word-break: break-word;
   font-size: 90%;
   font-weight: normal;
@@ -48,6 +52,45 @@ blockquote {
 
 blockquote > * {
   margin: 0;
+}
+
+pre, code {
+  background-color: #444;
+  background-color: rgba(85, 85, 85, 0.3);
+  font-size: 80%;
+  border-radius: .2em;
+  padding: 0.1em .5em;
+}
+
+pre {
+  padding: 0.25em .5em;
+  border-left: 1.5em solid #555;
+  border-left: 1.5em solid rgba(85, 85, 85, 0.3);
+}
+
+pre > code {
+  background-color: transparent;
+  font-size: 80%;
+  border-radius: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 80%;
+}
+
+td, th{
+  border: 1px solid #555;
+  padding: .25em .5em;
+}
+
+th {
+  text-align: center;;
+}
+
+td {
+  text-align: left;;
 }
 
 footer {
