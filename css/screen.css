@@ -30,7 +30,24 @@ a:hover {
 
 p,
 li {
-  line-height: 1.5em;
+  line-height: 1.4em;
+  margin: 0.5em 0;
+}
+
+blockquote {
+  padding: 0.25em 0.5em;
+  margin: 0;
+  background-color: #444;
+  background-color: rgba(68, 68, 68, 0.3);
+  border-left: 2px solid #555;
+  border-left: 2px solid rgba(85, 85, 85, 0.3);
+  word-break: break-word;
+  font-size: 90%;
+  font-weight: normal;
+}
+
+blockquote > * {
+  margin: 0;
 }
 
 footer {
