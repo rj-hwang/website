@@ -11,5 +11,9 @@
 <body>
   <header></header>
   <article>{{ content }}</article>
+
+  <br>
+  <div>POST: {{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;<a href="{{ '/' | prepend: site.github.url }}">返回阿基的博客</a>
+  </div>
 </body>
 </html>
