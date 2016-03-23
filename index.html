@@ -5,6 +5,9 @@ title: 阿基的博客
 <h2>{{ page.title }}</h2>
 <ul>
 	{% for post in site.posts %}
-		<li>{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a></li>
+		<li>
+				<a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
+				<span style="font-size:60%">{{ post.date | date: "%Y-%m-%d" }}</span>
+		</li>
 	{% endfor %}
 </ul>
