@@ -46,4 +46,10 @@ title: 英特尔 Apollo Lake 处理器
 [x7-E3930]: http://ark.intel.com/zh-cn/products/96486/Intel-Atom-x5-E3930-Processor-2M-Cache-up-to-1_80-GHz "去官网查看"
 
 
+### 相关阅读：
+
+- [英特尔 Braswell 处理器]({{ '/2016/03/15/intel-braswell.html' | prepend: site.github.url }}) - 2016-03-15
+
+
 [Intel下半年推Apollo Lake平台：优化功耗，将成本降到底]: http://www.expreview.com/46649.html
+[Intel发新一代Atom：性能暴涨190％ 110°C下保用15年]: http://news.mydrivers.com/1/504/504834.htm

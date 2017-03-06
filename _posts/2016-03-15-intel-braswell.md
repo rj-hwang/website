@@ -32,6 +32,11 @@ title: 英特尔 Braswell 处理器
 
 注：英特尔 CPU 发布时间 Q2`11 指的是 2011 年的第二季度，Q = quarter 季度。
 
+### 相关阅读：
+
+- [集成 Braswell CPU 的 ITX 主板收集]({{ '/2016/03/22/mb-itx-intel-braswell.html' | prepend: site.github.url }}) - 2016-03-22
+- [英特尔 Apollo Lake 处理器]({{ '/2017/03/01/intel-apollo-lake.html' | prepend: site.github.url }}) - 2017-03-01
+
 
 [Braswell]: http://ark.intel.com/products/codename/66094/Braswell#@All "去官网查看"
 

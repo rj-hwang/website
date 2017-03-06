@@ -32,3 +32,8 @@ title: 集成 Braswell CPU 的 ITX 主板收集
 </tbody>
 </table>
 </div>
+
+
+### 相关阅读：
+
+- [英特尔 Braswell 处理器]({{ '/2016/03/15/intel-braswell.html' | prepend: site.github.url }}) - 2016-03-15
